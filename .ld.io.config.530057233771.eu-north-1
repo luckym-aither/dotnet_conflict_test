@@ -3,7 +3,7 @@
         "FunctionName": "dotnet_conflict_test",
         "Runtime": "dotnet8",
         "Role": "arn:aws:iam::[LD-IO-ACCOUNT-NUMBER]:role/postman_lambda",
-        "Handler": "myDotnetFunction::myDotnetFunction.Function::FunctionHandler",
+        "Handler": "myDotnetFunctionPostman::myDotnetFunctionPostman.Function::FunctionHandler",
         "Description": "",
         "Timeout": 30,
         "MemorySize": 512,

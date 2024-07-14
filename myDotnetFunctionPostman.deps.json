@@ -7,13 +7,13 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
     ".NETCoreApp,Version=v8.0/linux-x64": {
-      "myDotnetFunction/1.0.0": {
+      "myDotnetFunctionPostman/1.0.0": {
         "dependencies": {
           "Amazon.Lambda.Core": "2.2.0",
           "Amazon.Lambda.Serialization.SystemTextJson": "2.4.1"
         },
         "runtime": {
-          "myDotnetFunction.dll": {}
+          "myDotnetFunctionPostman.dll": {}
         }
       },
       "Amazon.Lambda.Core/2.2.0": {
@@ -38,7 +38,7 @@
     }
   },
   "libraries": {
-    "myDotnetFunction/1.0.0": {
+    "myDotnetFunctionPostman/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
